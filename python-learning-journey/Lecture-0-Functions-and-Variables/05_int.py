@@ -2,6 +2,6 @@ name = "Kelvin"
 print("Name: ", name, end="\n\n")
 price = float(input("Meal Price:$ "))
 tax = float(input("Tax:$ ")) 
-
-print(end="\n\n") 
+print()
+print()
 print("Total: ", price + tax)
