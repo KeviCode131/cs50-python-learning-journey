@@ -1,2 +1,3 @@
 price = float(input("Price: $"))
-print("Final price: $", price + 5.50)
+shipping = float(input("Shipping: $"))
+print("Final price: $", price + shipping)
