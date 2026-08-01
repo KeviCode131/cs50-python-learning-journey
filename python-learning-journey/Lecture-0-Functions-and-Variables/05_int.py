@@ -1,12 +1,17 @@
-name = "Kelvin"
-print("Customer: ", name)
+print("============================ RECEIPT ================================", end="\n\n") 
+name = input("Customer: ")
 print()
 print()
-coffee = float(input("Coffee: $"))
-cake = float(input("Cake: $"))
+
+bread = float(input("Bread:$ "))
+milk = float(input("Milk:$ "))
+eggs = float(input("Eggs:$ "))
 print()
 print()
-print("Total Cost: $", coffee + cake)
+print("Total: $", bread + milk + eggs)
 print()
 print()
-print("Thank you for visiting!")
+print("Have a Nice Day!")
+
+
+print("=========================================================================")
