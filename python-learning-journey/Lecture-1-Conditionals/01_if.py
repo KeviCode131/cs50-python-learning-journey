@@ -1,3 +1,3 @@
-number = int(input("Enter a integer: "))
-if number % 2 == 0:
-  print("The number is even.")
+order = float(input("Order amount: "))
+if order > 50:
+  print("Free shipping applied.")
