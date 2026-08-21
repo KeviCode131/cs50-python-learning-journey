@@ -1,8 +1,8 @@
-name = input("Customer: ")
-price = float(input("Meal Price:$ "))
-if price >= 20:
-  print("Large meal.") 
+name = input("Employee: ")
+sales = int(input("Sales: "))
+if sales >= 100:
+  print("Target reached.") 
 else:
-  print("Small meal.")
+  print("Target not reached.")
 
 
