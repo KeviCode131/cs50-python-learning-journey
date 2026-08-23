@@ -1,7 +1,7 @@
-temperature = int(input("Temperature: "))
-if temperature >= 30:
-  print("Hot")
-elif temperature >= 20:
-    print("Warm")
+weight = float(input("Weight (kg): "))
+if weight >= 50:
+  print("Heavy shipment")
+elif weight >= 20:
+  print("Standard shipment")
 else:
-  print("Cold")
+  print("Light shipment")
