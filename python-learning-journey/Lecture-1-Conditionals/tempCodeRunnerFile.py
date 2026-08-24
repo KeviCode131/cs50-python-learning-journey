@@ -1,6 +1,10 @@
-name = input("Customer: ")
-price = float(input("Meal Price:$ "))
-if price >= 20:
-  print("Large meal.") 
+weight = float(input("Weight (kg): "))
+
+if weight == 0:
+  print("Invalid weight")
+elif weight >= 50:
+  print("Heavy shipment")
+elif weight >= 20:
+  print("Standard shipment")
 else:
-  print("Small meal.")
+  print("Light shipment")
