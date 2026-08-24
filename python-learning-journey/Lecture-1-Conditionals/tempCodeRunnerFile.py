@@ -1,10 +1,7 @@
-weight = float(input("Weight (kg): "))
+gpa = int(input("Enter your GPA: "))
+attendance = int(input("Enter your attendance percentage: "))
 
-if weight == 0:
-  print("Invalid weight")
-elif weight >= 50:
-  print("Heavy shipment")
-elif weight >= 20:
-  print("Standard shipment")
+if gpa >= 3.5 and attendance >= 90:
+  print("Scholarship granted")
 else:
-  print("Light shipment")
+  print("No scholarship")
