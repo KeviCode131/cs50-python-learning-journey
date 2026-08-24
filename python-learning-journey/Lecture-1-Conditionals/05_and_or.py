@@ -1,7 +1,7 @@
-gpa = int(input("Enter your GPA: "))
-attendance = int(input("Enter your attendance percentage: "))
+weight = float(input("Enter your weight (kg): "))
+express_paid = (input("Paid for express?: "))
 
-if gpa >= 3.5 and attendance >= 90:
-  print("Scholarship granted")
+if weight <= 5 and express_paid:
+  print("Express shipping")
 else:
-  print("No scholarship")
+  print("Standard shipping")
